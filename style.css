@@ -40,3 +40,48 @@
   background-image: url(img/mv.png);
   background-size: 100% 650px;
 }
+
+.portfolio {
+  text-align: center;
+}
+
+.pf-title {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.pf-title:after {
+  content: "";
+  position: absolute;
+  left: 50%; /* 位置調整 */
+  transform: translate(-50%); /* 位置調整 */
+  bottom: -130px; /* 下線の上下位置調整 */
+  width: 70px; /* 下線の幅 */
+  height: 3px; /* 下線の太さ */
+  background-color: #ec715f; /* 下線の色 */
+}
+
+.pf-text {
+  padding-bottom: 30px;
+}
+
+.flex {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.spacer {
+  width: 100%;
+}
+
+.image {
+  width: 300px;
+  height: 250px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
