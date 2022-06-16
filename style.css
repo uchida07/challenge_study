@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
 .nav-list {
   list-style: none;
   display: inline-block;
@@ -25,12 +31,6 @@
   height: 70px;
 }
 
-.header {
-  width: 100%;
-  height: 70px;
-  background-color: #ec715f;
-}
-
 .main {
   padding-top: 200px;
   width: 100%;
@@ -43,6 +43,7 @@
 
 .portfolio {
   text-align: center;
+  background-color: #eceff1;
 }
 
 .pf-title {
@@ -84,4 +85,96 @@
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.fe-title {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.fe-title:after {
+  content: "";
+  position: absolute;
+  left: 50%; /* 位置調整 */
+  transform: translate(-50%); /* 位置調整 */
+  bottom: -130px; /* 下線の上下位置調整 */
+  width: 70px; /* 下線の幅 */
+  height: 3px; /* 下線の太さ */
+  background-color: #ec715f; /* 下線の色 */
+}
+
+.fe-text {
+  padding-bottom: 30px;
+}
+
+.profile {
+  text-align: center;
+  background-color: #eceff1;
+}
+
+.pr-title {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.pr-title:after {
+  content: "";
+  position: absolute;
+  left: 50%; /* 位置調整 */
+  transform: translate(-50%); /* 位置調整 */
+  bottom: -130px; /* 下線の上下位置調整 */
+  width: 70px; /* 下線の幅 */
+  height: 3px; /* 下線の太さ */
+  background-color: #ec715f; /* 下線の色 */
+}
+
+.pr-text {
+  padding-bottom: 30px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.co-title {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.co-title:after {
+  content: "";
+  position: absolute;
+  left: 50%; /* 位置調整 */
+  transform: translate(-50%); /* 位置調整 */
+  bottom: -130px; /* 下線の上下位置調整 */
+  width: 70px; /* 下線の幅 */
+  height: 3px; /* 下線の太さ */
+  background-color: #ec715f; /* 下線の色 */
+}
+
+.co-text {
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #ec715f;
+  width: 100%;
+  height: 60px;
+}
+
+.fo-text {
+  line-height: 60px;
+  font-size: 16px;
+  text-align: center;
+  color: #fafafa;
 }
