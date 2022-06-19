@@ -56,12 +56,12 @@
 .pf-title:after {
   content: "";
   position: absolute;
-  left: 50%; /* 位置調整 */
-  transform: translate(-50%); /* 位置調整 */
-  bottom: -130px; /* 下線の上下位置調整 */
-  width: 70px; /* 下線の幅 */
-  height: 3px; /* 下線の太さ */
-  background-color: #ec715f; /* 下線の色 */
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -130px;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
 }
 
 .pf-text {
